@@ -1,0 +1,43 @@
+body {
+    background-color: #e7e7e7;
+    font-size: 120%;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: #204656;
+    color: white;
+}
+
+h2 {
+    background-color: #4d7788;
+    color: white;
+}
+
+nav {
+    font-variant: small-caps;
+    font-family: Arial;
+    font-size: 150%;
+}
+
+details {
+    font-style: italic;
+}
+
+footer {
+    line-height: 0;
+    visibility: hidden;
+}
+
+footer:after {
+    background-color: #213e4a;
+    color: white;
+    display: block;
+    line-height: initial;
+    content:'Laboratory Task 3 – Getting started with CSS\a CPE107L Software Design Laboratory';
+    white-space: pre;
+    visibility: visible;
+}
